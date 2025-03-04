@@ -1,0 +1,598 @@
+.jaro-regular{
+  font-family: "Jaro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.inconsolata{
+  font-family: "Inconsolata", serif;
+  font-optical-sizing: auto;
+  font-weight: 200px;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.index,
+.index * {
+  box-sizing: border-box;
+}
+.index {
+  background-color: #fbdb1d;
+  height: 2000px;
+  position: relative;
+}
+.body {
+  width: 1920px;
+  height: 957px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 123px;
+}
+
+.logos1{
+  width: 40%;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 650px;
+}
+
+.fondo {
+  background: #ffffff;
+  border-radius: 60px;
+  width: 1558px;
+  height: 839px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: calc(50% - 437.5px);
+  box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.25);
+}
+.scroll {
+  border-radius: 60px;
+  width: 1558px;
+  height: 840px;
+  position: absolute;
+  left: 181px;
+  top: 41px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-width: none; 
+
+}
+.programa {
+  width: 1558px;
+  height: 840px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 922px;
+}
+.scroll2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.logo-anim-2 {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 450px;
+  height: 627px;
+  position: absolute;
+  left: 966px;
+  top: 106px;
+}
+.image-2 {
+  flex-shrink: 0;
+  height: 616.48px;
+  position: absolute;
+  right: 9.55px;
+  left: 10px;
+  top: 10px;
+  object-fit: cover;
+  aspect-ratio: 430.45/616.48;
+  animation-name: logo2;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes logo2{
+  0%   {top:0px;}
+  50%   {top:10px;}
+  100%   {top:0px;}
+}
+
+.programa2 {
+  color: #000000;
+  text-align: center;
+  font-family: "Inconsolata", serif;
+  font-size: 100px;
+  font-weight: 900;
+  position: absolute;
+  right: 37.16%;
+  left: 37.16%;
+  width: 25.67%;
+  bottom: 85%;
+  top: 2.5%;
+  height: 12.5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.en-este-espacio-cubriremos-las-diferentes-actividades-y-programaci-n-establecida-para-cada-uno-de-los-eventos-por-individual-espero-que-lo-disfrutes-mucho-3 {
+  color: #000000;
+  text-align: center;
+  font-family: "Jaro", sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  position: absolute;
+  right: 45.76%;
+  left: 6.74%;
+  width: 47.5%;
+  bottom: 0%;
+  top: 16.9%;
+  height: 83.1%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.scroll-hor {
+  width: 1558px;
+  height: 840px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.frame {
+  display: flex;
+  flex-direction: row;
+  gap: 29px;
+  align-items: center;
+  justify-content: center;
+  width: 1920px;
+  height: 714px;
+  position: absolute;
+  left: 121px;
+  top: 91px;
+  animation-name: carrusel1;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+@keyframes carrusel1{
+  0% {margin-left: 0%;}
+  33% {margin-left: 0%;}
+
+  33% {margin-left: -20%;}
+  66% {margin-left: -20%;}
+
+  66% {margin-left: -35%;}
+
+
+  
+
+}
+.entrada-1 {
+  flex-shrink: 0;
+  width: 592px;
+  height: 601px;
+  position: relative;
+}
+.rectangle-1 {
+  background: #ffffff;
+  border-radius: 60px;
+  width: 592px;
+  height: 601px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.25);
+}
+._14-15-y-16-de-noviembre-2025 {
+  color: #000000;
+  text-align: center;
+  font-family: "Jaro", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 431px;
+  width: 592px;
+  height: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lanzarote {
+  color: #000000;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  bottom: 0px;
+  width: 592px;
+  height: 179px;
+}
+.lanzarote-span {
+  color: #000000;
+  font-family: "Inconsolata", serif;
+  font-size: 80px;
+  font-weight: 900;
+}
+.lanzarote-span2 {
+  color: #000000;
+  font-family: "Inconsolata", serif;
+  font-size: 90px;
+  font-weight: 400;
+}
+.image {
+  border-radius: 60px;
+  width: 526px;
+  height: 352px;
+  position: absolute;
+  left: calc(50% - 264px);
+  top: 27px;
+  box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.25);
+  object-fit: cover;
+}
+.entrada-2 {
+  flex-shrink: 0;
+  width: 592px;
+  height: 601px;
+  position: relative;
+}
+.lanzarote2 {
+  color: #000000;
+  text-align: center;
+  font-family: "Inconsolata", serif;
+  font-size: 80px;
+  font-weight: 900;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  bottom: 0px;
+  width: 592px;
+  height: 179px;
+}
+.entrada-3 {
+  flex-shrink: 0;
+  width: 592px;
+  height: 601px;
+  position: relative;
+}
+.lanzarote-span3 {
+  color: #000000;
+  font-family: "Inconsolata", serif;
+  font-size: 80px;
+  font-weight: 900;
+}
+.lanzarote-span4 {
+  color: #000000;
+  font-family: "Inconsolata", serif;
+  font-size: 90px;
+  font-weight: 400;
+}
+.entradas {
+  color: #000000;
+  text-align: center;
+  font-family: "Inconsolata", serif;
+  font-size: 100px;
+  font-weight: 900;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.scroll-hor2 {
+  width: 1558px;
+  height: 840px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.frame2 {
+  display: flex;
+  flex-direction: row;
+  gap: 29px;
+  align-items: center;
+  justify-content: center;
+  width: 1920px;
+  height: 729px;
+  position: absolute;
+  left: 1984px;
+  top: 2117px;
+}
+.lanzarote-span5 {
+  color: #000000;
+  font-family: "Inconsolata", serif;
+  font-size: 80px;
+  font-weight: 900;
+}
+.lanzarote-span6 {
+  color: #000000;
+  font-family: "Inconsolata", serif;
+  font-size: 90px;
+  font-weight: 400;
+}
+._15012024-presentacioncanariasmangafestival-980 {
+  border-radius: 60px;
+  width: 526px;
+  height: 352px;
+  position: absolute;
+  left: calc(50% - 264px);
+  top: 27px;
+  box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.25);
+  object-fit: cover;
+}
+.presentacion-canarias-manga-festival-2-scaled-e-1697456150529-1080-x-675 {
+  border-radius: 60px;
+  width: 526px;
+  height: 352px;
+  position: absolute;
+  left: calc(50% - 264px);
+  top: 27px;
+  box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.25);
+  object-fit: cover;
+}
+.lanzarote-span7 {
+  color: #000000;
+  font-family: "Inconsolata", serif;
+  font-size: 80px;
+  font-weight: 900;
+}
+.lanzarote-span8 {
+  color: #000000;
+  font-family: "Inconsolata", serif;
+  font-size: 90px;
+  font-weight: 400;
+}
+._069-1-1068-x-712 {
+  border-radius: 60px;
+  width: 526px;
+  height: 352px;
+  position: absolute;
+  left: calc(50% - 264px);
+  top: 27px;
+  box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.25);
+  object-fit: cover;
+}
+.frame3 {
+  display: flex;
+  flex-direction: row;
+  gap: 29px;
+  align-items: center;
+  justify-content: center;
+  width: 1920px;
+  height: 729px;
+  position: absolute;
+  left: 123px;
+  top: 1970px;
+  animation-name: carrusel2;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+@keyframes carrusel2{
+  0% {margin-left: 0%;}
+  33% {margin-left: 0%;}
+
+  33% {margin-left: -20%;}
+  66% {margin-left: -20%;}
+
+  66% {margin-left: -35%;}
+}
+.lanzarote-span9 {
+  color: #000000;
+  font-family: "Inconsolata", serif;
+  font-size: 80px;
+  font-weight: 900;
+}
+.lanzarote-span10 {
+  color: #000000;
+  font-family: "Inconsolata", serif;
+  font-size: 90px;
+  font-weight: 400;
+}
+._2025012718182878242 {
+  border-radius: 60px;
+  width: 526px;
+  height: 352px;
+  position: absolute;
+  left: calc(50% - 264px);
+  top: 27px;
+  box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.25);
+  object-fit: cover;
+}
+.publi-manga-2-kh-4-h-u-230654572006-tk-e-1200-x-840-canarias-7 {
+  border-radius: 60px;
+  width: 526px;
+  height: 352px;
+  position: absolute;
+  left: calc(50% - 264px);
+  top: 27px;
+  box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.25);
+  object-fit: cover;
+}
+.lanzarote-span11 {
+  color: #000000;
+  font-family: "Inconsolata", serif;
+  font-size: 80px;
+  font-weight: 900;
+}
+.lanzarote-span12 {
+  color: #000000;
+  font-family: "Inconsolata", serif;
+  font-size: 90px;
+  font-weight: 400;
+}
+._576-db-79-c-2-f-60-4779-8-a-2-c-c-2-a-7-dcd-50-b-68-16-9-discover-aspect-ratio-default-0 {
+  border-radius: 60px;
+  width: 526px;
+  height: 352px;
+  position: absolute;
+  left: calc(50% - 264px);
+  top: 27px;
+  box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.25);
+  object-fit: cover;
+}
+.ediciones {
+  color: #000000;
+  text-align: center;
+  font-family: "Inconsolata", serif;
+  font-size: 100px;
+  font-weight: 900;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 1900px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.scroll-ver {
+  width: 1559px;
+  height: 803px;
+  position: absolute;
+  left: 0px;
+  top: 2800px;
+}
+.contacto-r-a-obradoiro-47-15190-a-coru-a-981137346 {
+  color: #000000;
+  text-align: center;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1559px;
+  height: 732px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contacto-r-a-obradoiro-47-15190-a-coru-a-981137346-span {
+  color: #000000;
+  font-family: "Inconsolata", serif;
+  font-size: 100px;
+  font-weight: 900;
+}
+.contacto-r-a-obradoiro-47-15190-a-coru-a-981137346-span2 {
+  color: #000000;
+  font-family: "Inconsolata", serif;
+  font-size: 120px;
+  font-weight: 900;
+}
+.header {
+  width: 2220px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: -2%;
+}
+.header2 {
+  border-radius: 0px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  overflow: visible;
+}
+.tabla-nav-nav-header {
+  padding: 8px 24px 8px 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.logo {
+  background: #ffffff;
+  flex-shrink: 0;
+  width: 285.1px;
+  height: 75px;
+  position: relative;
+}
+.logo-manga-web-2-1 {
+  width: 285.1px;
+  height: 75px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.group {
+  height: auto;
+  position: absolute;
+  left: -0.07px;
+  top: 0px;
+  overflow: visible;
+}
+.tabla {
+  background: #ffffff;
+  border-radius: 40px;
+  flex-shrink: 0;
+  width: 754px;
+  height: 105px;
+  position: relative;
+}
+.frame-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.nav-list-item {
+  flex-shrink: 0;
+  width: 162.24px;
+  height: 105px;
+  position: relative;
+}
+.entradas2 {
+  color: #e30613;
+  text-align: center;
+  font-family: "Inconsolata", serif;
+  font-size: 32px;
+  font-weight: 700;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s ease-in-out;
+}
+
+.entradas2:hover{
+  color: gray;
+  font-size: 35px;
+}

@@ -1,0 +1,275 @@
+.jaro-regular{
+  font-family: "Jaro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inconsolata{
+  font-family: "Inconsolata", serif;
+  font-optical-sizing: auto;
+  font-weight: 200px;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.entradas,
+.entradas * {
+  box-sizing: border-box;
+}
+.entradas {
+  background: #fbdb1d;
+  height: 2000px;
+  position: relative;
+}
+.body {
+  width: 1920px;
+  height: 959px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 121px;
+}
+.frame {
+  display: flex;
+  flex-direction: row;
+  gap: 29px;
+  align-items: center;
+  justify-content: center;
+  width: 1920px;
+  height: 959px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.entrada-1 {
+  flex-shrink: 0;
+  width: 592px;
+  height: 601px;
+  position: relative;
+}
+.rectangle-1 {
+  background: #ffffff;
+  border-radius: 60px;
+  width: 592px;
+  height: 601px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.25);
+}
+._14-15-y-16-de-noviembre-2025 {
+  color: #000000;
+  text-align: center;
+  font-family: "Jaro", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 431px;
+  width: 592px;
+  height: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lanzarote {
+  color: #000000;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  bottom: 0px;
+  width: 592px;
+  height: 179px;
+}
+.lanzarote-span {
+  color: #000000;
+  font-family: "Inconsolata", serif;
+  font-size: 80px;
+  font-weight: 900;
+}
+.lanzarote-span2 {
+  color: #000000;
+  font-family: "Inconsolata", serif;
+  font-size: 90px;
+  font-weight: 400;
+}
+.image {
+  border-radius: 60px;
+  width: 526px;
+  height: 352px;
+  position: absolute;
+  left: calc(50% - 264px);
+  top: 27px;
+  box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.25);
+  object-fit: cover;
+}
+.entrada-2 {
+  flex-shrink: 0;
+  width: 592px;
+  height: 601px;
+  position: relative;
+}
+.lanzarote2 {
+  color: #000000;
+  text-align: center;
+  font-family: "Inconsolata", serif;
+  font-size: 80px;
+  font-weight: 900;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  bottom: 0px;
+  width: 592px;
+  height: 179px;
+}
+.entrada-3 {
+  flex-shrink: 0;
+  width: 592px;
+  height: 601px;
+  position: relative;
+}
+.lanzarote-span3 {
+  color: #000000;
+  font-family: "Inconsolata", serif;
+  font-size: 80px;
+  font-weight: 900;
+}
+.lanzarote-span4 {
+  color: #000000;
+  font-family: "Inconsolata", serif;
+  font-size: 90px;
+  font-weight: 400;
+}
+.header {
+  width: 2220px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: -2%;
+}
+.header2 {
+  border-radius: 0px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  overflow: visible;
+}
+.tabla-nav-nav-header {
+  padding: 8px 24px 8px 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.logo {
+  background: #ffffff;
+  flex-shrink: 0;
+  width: 285.1px;
+  height: 75px;
+  position: relative;
+}
+.logo-manga-web-2-1 {
+  width: 285.1px;
+  height: 75px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.group {
+  height: auto;
+  position: absolute;
+  left: -0.07px;
+  top: 0px;
+  overflow: visible;
+}
+.tabla {
+  background: #ffffff;
+  border-radius: 40px;
+  flex-shrink: 0;
+  width: 754px;
+  height: 105px;
+  position: relative;
+}
+.rectangle-8 {
+  background: #e30613;
+  border-radius: 40px;
+  width: 162px;
+  height: 71px;
+  position: absolute;
+  left: 0px;
+  top: 17px;
+}
+
+.frame-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.nav-list-item {
+  flex-shrink: 0;
+  width: 162.24px;
+  height: 105px;
+  position: relative;
+}
+.entradas2 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inconsolata", serif;
+  font-size: 32px;
+  font-weight: 700;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.entradas3 {
+  color: #e30613;
+  text-align: center;
+  font-family: "Inconsolata", serif;
+  font-size: 32px;
+  font-weight: 700;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s ease-in-out;
+}
+
+.entradas3:hover{
+  color: gray;
+  font-size: 35px;
+}

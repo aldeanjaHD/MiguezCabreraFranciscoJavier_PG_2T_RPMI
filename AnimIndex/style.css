@@ -1,0 +1,84 @@
+.anim-index,
+.anim-index * {
+  box-sizing: border-box;
+}
+.anim-index {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 2220px;
+  position: relative;
+}
+.frame-anim {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.animacion {
+  flex-shrink: 0;
+  width: 1920px;
+  height: 1080px;
+  position: relative;
+}
+.fondo {
+  background: #ffffff;
+  width: 2220px;
+  height: 1080px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 123px;
+}
+.rectangle-2 {
+  background: #ffffff;
+  border-radius: 0px 0px 60px 60px;
+  width: 2220px;
+  height: 540px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 0%;
+  box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.25);
+}
+.rectangle-3 {
+  background: #ffffff;
+  border-radius: 60px;
+  width: 439px;
+  height: 439px;
+  position: absolute;
+  left: 740px;
+  top: 321px;
+  box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.25);
+}
+.logo-anim {
+  width: 260px;
+  height: 353px;
+  position: absolute;
+  left: 830px;
+  top: 355px;
+}
+.logo-manga-fest{
+  height: 317.07px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.25);
+  object-fit: cover;
+  aspect-ratio: 260/317.07;
+  animation-name: logo;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes logo{
+  0%   {top:0px;}
+  50%   {top:10px;}
+  100%   {top:0px;}
+}

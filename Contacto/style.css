@@ -1,0 +1,185 @@
+.jaro-regular{
+  font-family: "Jaro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inconsolata{
+  font-family: "Inconsolata", serif;
+  font-optical-sizing: auto;
+  font-weight: 200px;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.contactos,
+.contactos * {
+  box-sizing: border-box;
+}
+.contactos {
+  background: #fbdb1d;
+  height: 2000px;
+  position: relative;
+}
+.body {
+  width: 1920px;
+  height: 959px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 123px;
+}
+.logos1{
+  width: 40%;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 650px;
+}
+
+.r-a-obradoiro-47-15190-a-coru-a-981137346 {
+  color: #000000;
+  text-align: center;
+  font-family: "Inconsolata", serif;
+  font-size: 120px;
+  font-weight: 900;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1920px;
+  height: 959px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header {
+  width: 2220px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: -2%;
+}
+.header2 {
+  border-radius: 0px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  overflow: visible;
+}
+.tabla-nav-nav-header {
+  padding: 8px 24px 8px 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.logo {
+  background: #ffffff;
+  flex-shrink: 0;
+  width: 285.1px;
+  height: 75px;
+  position: relative;
+}
+.logo-manga-web-2-1 {
+  width: 285.1px;
+  height: 75px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.group {
+  height: auto;
+  position: absolute;
+  left: -0.07px;
+  top: 0px;
+  overflow: visible;
+}
+.tabla {
+  background: #ffffff;
+  border-radius: 40px;
+  flex-shrink: 0;
+  width: 754px;
+  height: 105px;
+  position: relative;
+}
+.rectangle-8 {
+  background: #e30613;
+  border-radius: 40px;
+  width: 162px;
+  height: 71px;
+  position: absolute;
+  left: 592px;
+  top: 17px;
+}
+.frame-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.nav-list-item {
+  flex-shrink: 0;
+  width: 162.24px;
+  height: 105px;
+  position: relative;
+}
+.entradas {
+  color: #e30613;
+  text-align: center;
+  font-family: "Inconsolata", serif;
+  font-size: 32px;
+  font-weight: 700;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s ease-in-out;
+}
+
+.entradas:hover{
+  color: gray; 
+  font-size: 35px;
+}
+
+.entradas2 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inconsolata", serif;
+  font-size: 32px;
+  font-weight: 700;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
